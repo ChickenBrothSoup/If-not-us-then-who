@@ -1,0 +1,58 @@
+{
+    "version": 1,
+    "name": "PlayerOrders",
+    "maps": [
+        {
+            "name": "BattleOrders",
+            "id": "54285fe7-cef5-461b-b2b1-8edf07a807e0",
+            "actions": [
+                {
+                    "name": "OrderTroopsToFire",
+                    "type": "Button",
+                    "id": "ffeb203f-ac58-4c9e-b1b8-417b5962b611",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f77cf0aa-2ea8-4446-8d7b-59740b1571c6",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "OrderTroopsToFire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "07781e19-8c44-44f0-8dd7-500139885f3e",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrderTroopsToFire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
