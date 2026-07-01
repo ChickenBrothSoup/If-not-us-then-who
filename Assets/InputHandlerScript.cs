@@ -3,7 +3,14 @@ using UnityEngine.InputSystem;
 
 public interface IClickable
 {
-    void OnClicked();
+    
+    void InfantryClicked();
+    void EngineerClicked();
+
+    void SupplyTruckClicked();
+    void LightTankClicked();
+
+    
 }
 public class InputHandlerScript : MonoBehaviour
 {
@@ -21,6 +28,9 @@ public class InputHandlerScript : MonoBehaviour
         Debug.Log(rayHit.collider.gameObject.name);
         var clickable = rayHit.collider.GetComponent<IClickable>();
 
-        clickable?.OnClicked();
+        
+
+        clickable?.InfantryClicked();
+        
     }
 }
