@@ -37,5 +37,9 @@ public class SoundManager : MonoBehaviour
     {
         instance.audioSource.PlayOneShot(instance.soundlist[(int)sound], volume);
     }
+
+    // Instead of Soundtype, just have a direct audio clip. Instead of soundtype, just give it an audio clip.
+
+
 }
 
