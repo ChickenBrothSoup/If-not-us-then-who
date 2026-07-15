@@ -9,8 +9,7 @@ public interface IClickable
 
     void SupplyTruckClicked();
     void LightTankClicked();
-
-    
+    void MoveCommand();
 }
 public class InputHandlerScript : MonoBehaviour
 {
@@ -31,6 +30,7 @@ public class InputHandlerScript : MonoBehaviour
         
 
         clickable?.InfantryClicked();
+        clickable?.MoveCommand();
         
     }
 }
